@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+  <!--Include Animate CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!--Include Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <!--Include Materialize CSS-->
+  <link type="text/css" rel="stylesheet" href="./css/materialize.min.css">
+  <link type="text/css" rel="stylesheet" href="./css/index.css">
+  <title>Ben Huang | Web Developer</title>
+  <style>
+  .cus-blue
+  {
+	background-color:#279ba7;/*#bbd2ef*/
+  }
+  
+  .myphoto
+  {
+	background-image:url(./img/about-me/me.jpg);
+	width: 110px;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cus-bg
+  {
+    background-image:url(./img/background/right_bar2.png);
+    background-size: cover;
+    background-position: center;
+  }
+  </style>
+</head>
+
+<body>
+
+  <!--Header Section-->
+  <header id="home" class="navbar-fixed">
+    <!--Banner Slider-->
+    <div class="slider fullscreen">
+      <ul class="slides">
+        <li>
+          <img src="./img/cover/banner.jpg" alt="Background image of Ben">
+          <div class="caption right-align grey-text text-lighten-5">
+            <h3>Looking For<br>Front End Developer?</h3>
+            <h5>Let me introduce myself!</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./img/cover/banner2.jpg" alt="Background image of Ben">
+          <div class="caption right-align grey-text text-lighten-4">
+            <h3>Love Life <br>Love work</h3>
+            <h5>Question behind quesion!It's another story...</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--Navbar-->
+    <nav>
+      <div class="container">
+        <a href="index.html" class="brand-logo">
+          <img src="./img/logo/logo.png" alt="Ben's logo" class="responsive-img">
+        </a>
+        <a href="#" class="right sidenav-trigger show-on-medium-and-up" data-target="side-nav">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+    </nav>
+    <!--Instruction Arrow-->
+    <a href="#about" id="arrow" class="animated bounce infinite slow"></a>
+  </header>
+
+  <!--Side Nav-->
+  <ul class="sidenav cus-blue cus-bg" id="side-nav" >
+    <li id="side-nav-logo">
+      <img src="./img/logo/logo.png" alt="Ben's logo">
+    </li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#home">Home</a></li>    
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#skill">Skills</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#project">Project</a></li>   
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#contact">Contact</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    
+    <div id="side-nav-icons-container">
+     <div class="circle myphoto"></div>
+    </div>
+  </ul>  
+
+  <!--Skills-->
+  <section class="section-skills parallax-container scrollspy" id="skill">
+    <div class="overlay">
+      <div class="carousel carousel-slider center">
+        <!--Front-End-->
+        <div class="carousel-item white-text valign-wrapper" href="#frontEnd!" id="front-end-carousel-item">
+          <div class="container">
+            <h3>Front-End Skills</h3>
+            <div class="row">
+              <div class="carousel-logo col s2 z-depth-5 tooltip">
+                <img src="./img/skills/angular.png" alt="Vue.js Logo" class="responsive-img">
+                <span class="tooltip-text">angular</span>
+              </div>
+              <div class="carousel-logo col s2 z-depth-5 tooltip">
+                <img src="./img/skills/Vue.png" alt="Vue.js Logo" class="responsive-img">
+                <span class="tooltip-text">Vue.js</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/JavaScript.png" alt="JavaScript Logo" class="responsive-img">
+                <span class="tooltip-text">JavaScript</span>
+              </div>              
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/Sass.png" alt="Sass Logo" class="responsive-img">
+                <span class="tooltip-text">Sass/SCSS</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/Bootstrap.png" alt="Bootstrap Logo" class="responsive-img">
+                <span class="tooltip-text">Bootstrap</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/Materialize.png" alt="Materialize Logo" class="responsive-img">
+                <span class="tooltip-text">Materialize</span>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <!--Other Skills ans Tools-->
+        <div class="carousel-item white-text valign-wrapper" href="#others!">
+          <div class="container">
+            <h3>Tools & Others</h3>
+            <div class="row">
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/GitHub.png" alt="GitHub Logo" class="responsive-img">
+                <span class="tooltip-text">GitHub</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/Git.png" alt="Git Logo" class="responsive-img">
+                <span class="tooltip-text">Git</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/postman.png" alt="postman Logo" class="responsive-img">
+                <span class="tooltip-text">postman</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/aquastudio.png" alt="AquaStudio Logo" class="responsive-img">
+                <span class="tooltip-text">AquaStudio</span>
+              </div>
+              <div class="carousel-logo col s2 tooltip">
+                <img src="./img/skills/Firebase.png" alt="Firebase Logo" class="responsive-img">
+                <span class="tooltip-text">Firebase</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+      <div class="parallax">
+        <img src="./img/parallax/kapellbridge.jpeg" alt="kapellbridge landscape">
+      </div>  
+    </div>
+  </section>
+
+  <!--Project Display Section-->
+  <section class="section grey lighten-5 section-project grey-text text-darken-2 scrollspy" id="project">
+    <div class="container">
+      <h3 class="center">Recent Project</h3>      
+      <div class="row">
+        <!--Projects be displayed here-->
+      </div>
+    </div>
+  </section>
+
+ 
+  <!--Contact Section-->
+  <section class="section experience grey lighten-5 section-contact grey-text text-darken-2 scrollspy" id="contact">
+    <div class="container center">
+      <h3>Get In Touch</h3>
+      <h6>Kindly fill in the form and let us get a chance to learn more about each other</h6>
+      <div class="row">
+        <form class="col s12 xl10 offset-xl1" action="https://getform.io/f/de7329b9-25d9-4f0d-b283-655323f0c213"
+          method="POST">
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">account_circle</i>
+              <input type="text" class="validate" id="name" required>
+              <label for="name">Name</label>
+              <span class="helper-text" data-error="Kindly provide your name"></span>
+            </div>
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">email</i>
+              <input type="email" name="email" class="validate" id="email" required>
+              <label for="email">Email</label>
+              <span class="helper-text" data-error="Kindly provide your email"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">message</i>
+              <textarea name="message" id="message" class="materialize-textarea validate" required></textarea>
+              <label for="message">Leave a message</label>
+              <span class="helper-text" data-error="Kindly leave a message"></span>
+            </div>
+          </div>
+          <div class="row center">
+            <button class="btn waves-effect waves-light primary" type="submit" name="action">Send
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="page-footer cus-blue">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div id="footer-logo">
+            <img src="./img/logo/logo.png" alt="Logo of Ben">
+          </div>         
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright center">
+      <div class="container">
+        Ben's Portfolio © 2021 Copyright
+      </div>
+    </div>
+  </footer>
+
+  <!--Floating Action Button-->
+  <div class="fixed-action-btn toolbar">
+    <a
+      class="btn-floating btn-large blue-grey darken-1 hide-on-med-and-up waves-effect waves-light scale-transition scale-out">
+      <i class="material-icons">account_circle</i>
+    </a>    
+  </div>
+
+  <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="./js/materialize.min.js"></script>
+  <script type="text/javascript" src="./js/materialize-init.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>
