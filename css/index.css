@@ -6,6 +6,10 @@ body {
   font-family: 'Audiowide', cursive , sans-serif;
 }
 
+.mobile-text{
+  font-family: sans-serif;
+}
+
 .valign-wrapper {
   flex-direction: column;
   align-items: unset;
@@ -321,7 +325,7 @@ ul.sidenav .subheader {
 
 .section-project .card-reveal {
   padding-top: 13px;
-  background-image: url("../img/projects/sky.jpg");
+  background-image: url("../img/parallax/s-bg.jpg");
   background-position: center;
   background-size: cover;
 }

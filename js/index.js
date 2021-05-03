@@ -165,7 +165,7 @@
             <div class="card-reveal">
               <div class="overlay"></div>
               <span class="card-title white-text">Accomplishments<i class="material-icons right">close</i></span>
-              <ul class="white-text">
+              <ul class="white-text mobile-text">
                 ${accomplishments}
               </ul>
              
@@ -196,7 +196,7 @@
             <div class="card-reveal">
               <div class="overlay"></div>
               <span class="card-title white-text">Accomplishments<i class="material-icons right">close</i></span>
-              <ul class="white-text">
+              <ul class="white-text ">
                 ${accomplishments}
               </ul>
              
