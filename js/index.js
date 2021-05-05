@@ -174,7 +174,7 @@
         </div>
         <div class="col m5 hide-on-med-and-down offset-m1 valign-wrapper">
           <h5 class="blue-grey-text text-darken-1">${project.title}</h5>
-          <span class="blue-grey-text text-lighten-1">${project.description}</span>
+          <span class="blue-grey-text text-lighten-1 mobile-text">${project.description}</span>
         </div>
       `
       }
@@ -205,7 +205,7 @@
         </div>
         <div class="col m5 hide-on-med-and-down offset-m1 valign-wrapper">
           <h5 class="blue-grey-text text-darken-1">${project.title}</h5>
-          <span class="blue-grey-text text-lighten-1">${project.description}</span>
+          <span class="blue-grey-text text-lighten-1 mobile-text">${project.description}</span>
         </div>
       `
       }
