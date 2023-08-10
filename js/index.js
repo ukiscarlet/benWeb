@@ -49,18 +49,17 @@
       ]
     },
     {
-      title: 'Todo List',
-      image: './img/projects/todo-list.png',
-      imageAlt: 'Todo List Project Photo',
+      title: 'Tomato Clock',
+      image: './img/projects/tomato-clock.png',
+      imageAlt: 'Tomato Clock Project Photo',
       imageSize:'100%',
-      description: 'I try to Deliberate practice and this is what i got! Use vue and firebase build my own todolist',
-      badgeCaption: 'vue.js & Firebase',
+      description: 'This project is used to verify the control of CSS and HTML Audio by Vue 2, and to check if it works as intended.',
+      badgeCaption: 'vue.js',
        links: {
-          github: 'https://ukiscarlet.github.io/ToDoList/',        
+          github: 'https://ws85r6.csb.app/',
        },
       accomplishments: [
-        'vue & vuityfy',
-        'firebase auth & realtime db',        
+        'vue2'
       ]
     }
   ]
